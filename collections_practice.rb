@@ -22,6 +22,7 @@ def swap_elements(array)
   # takes in array and swaps the second and third elements
   # *Array indices start at 0
   array[1], array[2] = array[2], array [1]
+  binding.pry
   array
 end
 
