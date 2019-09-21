@@ -21,9 +21,9 @@ end
 def swap_elements(array)
   # takes in array and swaps the second and third elements
   # *Array indices start at 0
-  binding.pry
-  # array[1], array[2] = array[2], array[1]
-  # array
+  
+  array[1], array[2] = array[2], array[1]
+  array
 end
 
 def swap_elements_from_to(array, index, destination_index)
